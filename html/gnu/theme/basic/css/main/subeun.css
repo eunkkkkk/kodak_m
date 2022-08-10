@@ -1,0 +1,94 @@
+#keyword .list  li dl{  display: none; }
+#keyword .list  li{ width:20%; padding:0.8rem; }
+#keyword .list  li > a {
+       
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative; 
+    text-decoration-color : #ffd902;   
+    
+}
+#keyword .list  li.on > a:before{ opacity: 1;}
+#keyword .list.act{ padding-top: 23%;}
+#keyword .list  li.on{
+    align-items: center;
+    transform: translate(-300%, -100%);
+    position: relative;   
+}
+
+#keyword .list  li:nth-child(1).on{
+       
+    transform: translate(0, -100%);
+        
+}
+#keyword .list  li:nth-child(2).on{
+       
+    transform: translate(-100%, -100%);
+    
+}
+#keyword .list  li:nth-child(3).on{
+       
+    transform: translate(-200%, -100%);
+    
+}
+#keyword .list  li:nth-child(4).on{
+       
+    transform: translate(-300%, -100%);
+    
+}
+#keyword .list  li:nth-child(5).on{
+       
+    transform: translate(-400%, -100%);
+    
+}
+
+#keyword .list  li.on dl{  display: block;
+    margin-left: 2rem;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    width: 300%;
+    height: 70%;
+    margin-bottom: 0;}
+
+#keyword .list  li > a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left:0; right:0; top:0; bottom:0;
+    background-repeat: no-repeat; 
+    background-size: auto 100%; 
+    background-position: center; 
+    opacity: 0.5;
+}
+.key_1 > a:before  { 
+    background-image:url(/gnu/img/key_1.jpg) ;
+    
+    
+}
+.key_2 > a:before  { 
+    background-image:url(/gnu/img/key_2.png);
+   
+   
+}
+.key_3 > a:before  { 
+    background-image:url(/gnu/img/key_3.png);
+    
+      
+}
+.key_4 > a:before   { 
+    background-image:url(/gnu/img/key_4.jpg);
+    
+       
+}
+.key_5 > a:before   { 
+    background-image:url(/gnu/img/key_5.PNG);
+  
+}
+
+
+#hd{ background-color: rgba(255,255,255,0); transition: 0.4s;}
+.scroll #hd{ background-color: red; padding: 8px 0; }
+#gnb{ background-color: transparent;}
+.scroll #hd #logo svg .st0{ fill: white;}
+.scroll #gnb a{ color:white}
