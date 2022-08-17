@@ -24,7 +24,10 @@ include_once(G5_PATH.'/head_main.php');
    
     echo latest('mainimages', 'free', 4, 23);			// 최소설치시 자동생성되는 자유게시판
 
+
     ?>
+
+ 
     <div class="inner">
         <?php
     

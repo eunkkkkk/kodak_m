@@ -6,11 +6,14 @@
 #hd, #wrapper, .container, #ft{ min-width: auto;}
 #hd_wrapper{ height: auto;}
 .inner{ max-width: 1200px; margin: 0 auto;}
+.h-100{ height: 100% !important;}
+.fontstyle{  font-family: 'GangwonEdu_OTFLightA' !important;}
 
 .section{ min-height:50vw;}
-@media (max-width:960vw;){
-        .section{ min-height:200vw;}
-}
+
+
+
+
 
 section{
     font-family: 'Noto Sans KR', sans-serif;
@@ -78,7 +81,6 @@ section .bk_t{
 #keyword .tc-y{
     color:#fef070;
 }
-
 #keyword{
     position:relative;
     overflow: hidden;
@@ -125,7 +127,6 @@ section .bk_t{
 #slogen .poem{
     top: 22%;
     left: 42.5%;
-    text-align: center;
 }
 #slogen .bg_g img{
     margin-right: 8px;
@@ -152,10 +153,12 @@ section .bk_t{
     display:flex;
 }
 #slogen .bg_g img{
-    width: 2rem;
+    width: 35px;
+    height:35px;
 }
 #slogen img{
     width:100%;
+    height:30vh;
 }
 #photo img{
     max-height:300px;
@@ -306,11 +309,12 @@ section .bk_t{
     font-family: 'Jua', sans-serif;
 }
 #event .quiz .hint{
-    text-indent: -3rem;
+    color:#f4b3b3;
     font-size: 1.2rem;
+}
+#event .quiz span{
     color:#f4b3b3;
 }
-
 #event ul li strong{
     border:2px solid #ff0000;
     background-color: #fff;
@@ -402,10 +406,65 @@ section .bk_t{
     color:#ccc;
     margin-bottom:0;
 }
-#mainBanner img{
-    width:100%;
-    height:100%;
+#mainBanner{
+    height: calc( 100vh - 150px );
+    max-height:700px;
+    min-height:700px;
+    overflow: hidden;  
+    position: relative;
 }
+#mainBanner div.bg{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 202vw;
+    height: 81%;
+    background-color: #ecc30a;
+    transform: rotate(-12deg);
+    left: -8%;
+    top: 29%;
+    bottom: 0;    
+}
+#mainBanner div.bg .content{ font-size: 80px;}
+#mainBanner:before{
+  content: "";
+  position: absolute;
+  width: 22vw; 
+  height: 22vw;
+  max-width:635px; 
+  background-color: #04610c;
+  left:50%; top:61%; 
+  transform: translate(20%, -50%);
+}
+#mainBanner .title{
+    transform: translateY(-50%);
+}
+#mainBanner .inner{
+    padding-top: 10em;
+    z-index: 100;
+}
+#mainBanner p{
+    font-size: 2em;    
+    letter-spacing: -0.05em;
+}
+#mainBanner h3{
+    font-size: 3.8em;    
+    letter-spacing: -0.05em;
+}
+#mainBanner .animated-title {font-size:60px}
+#mainBanner .animated-title .slide1{animation: marquee 70s linear infinite; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+#mainBanner .animated-title .track .slide{animation: marquee2 70s linear infinite; }
+@keyframes marquee2 {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+  }
+@media (hover: hover) and (min-width:200vw){
+    #mainBanner .animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
 #ft ul li a{
     display:block;
     text-decoration: none;
@@ -425,3 +484,35 @@ section .bk_t{
  #ft .ft_m p{
     font-size:1rem;
  }
+
+
+ @media (max-width:1080px){
+    /* .section{ min-height:200vw;} */
+    #mainBanner p{
+        font-size: 3vw;
+    }
+    }
+    @media (max-width:620px){
+    /* .section{ min-height:200vw;} */
+    #mainBanner p{
+        font-size: 18px;
+    }
+    #slogen .poem p{
+        font-size:25px;
+    }
+    #slogen .poem {
+        top: 14%;
+        left: 26.5%;
+    }
+    #slogen .bg_g {
+        top: 66%;
+        left: 29.5%;
+    }
+    #event .opa_y li strong {
+        font-size: 19px;
+    }
+    #event .quiz_t {
+        font-size: 27px;
+        margin: 28px 0;
+    }
+}

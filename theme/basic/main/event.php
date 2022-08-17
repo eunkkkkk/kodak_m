@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="<?php echo G5_THEME_URL ?>/gnu/main/event/style.css">
-<script src="<?php echo G5_THEME_URL ?>/gnu/main/event/style.js"></script>
+<link rel="stylesheet" href="<?php echo G5_THEME_URL ?>/theme/basic/main/event/style.css">
+<script src="<?php echo G5_THEME_URL ?>/theme/basic/main/event/style.js"></script>
 
 
 <section class="section bg-gray py-5" id="event">
@@ -14,7 +14,8 @@
                 <h4 class="position-absolute">QUIZ</h4>
                 <img src="/gnu/img/quiz.png" alt="" class="img-fluid mt-5">
                  <p>ㄹㅌㄹ</p>
-                 <span class="hint">hint! 1.코닥 미니샷은 이것을 기반으로 만들어졌습니다.<br>
+                 <span class="hint">hint!</span>
+                 <span>1.코닥 미니샷은 이것을 기반으로 만들어졌습니다.<br>
                  2.전통을 가리키는 단어 이기도 합니다.
                  </span>
             </div>

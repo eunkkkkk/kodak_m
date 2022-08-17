@@ -57,6 +57,8 @@ if($config['cf_add_meta'])
 <title><?php echo $g5_head_title; ?></title>
 
 
+<link rel="stylesheet" href="/gnu/css/fonts.css">
+
 <link rel="stylesheet" href="/gnu/theme/basic/css/default.css?ver=<?php echo time() ?>">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -1,0 +1,154 @@
+#event{
+    background-image: url(/gnu/img/event_bg.png);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#event .dots img{
+    position: absolute;
+    width:90vw;
+    animation: dot 3s ease-in-out infinite
+}
+@keyframes dot {
+    50% { margin-top:-40px;  }
+}
+#event .emt{
+    background-color:#fda92c;
+    width:10rem;
+    border-radius: 10px;
+}
+#event .emt h3{
+    font-size: 3rem;
+    color:#fff;
+}
+#event .quiz_t{
+    font-size: 3.5rem;
+}
+#event .quiz_s{
+    flex-direction: column;
+    align-items: center;
+}
+#event .quiz{
+    border:2px solid #84C578;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    width: 34rem;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#event .quiz h4,
+#event .pres h4{
+    border:2px solid #84C578;
+    border-radius: 0.7rem;
+    background-color: #fff;
+    width:7rem;
+    text-align:center;
+}
+#event .quiz h4{
+    top:-7%;
+}
+#event .quiz img{
+    display: block;
+}
+#event .quiz p{
+    margin:-101px 0 0 0.4rem;
+    font-size:5.2rem;
+    font-family: 'Jua', sans-serif;
+}
+#event .quiz .hint{
+    text-indent: -3rem;
+    font-size: 1.2rem;
+    color:#f4b3b3;
+}
+
+#event ul li strong{
+    border:2px solid #ff0000;
+    background-color: #fff;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0;
+    width:5rem;
+}
+#event .pres{
+    border:2px solid #FFCC18;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    width: 34rem;
+    max-width: 80vw;
+    font-family: 'Hahmlet', serif;
+}
+#event .pres h4{
+    border:2px solid #FFCC18;
+    top:-3%;
+}
+#event .pres div{
+    border:2px solid #C7D7C5;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    width:60%;
+}
+#event .pres p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#event .pres img{
+    max-width:200px;
+}
+#event .apply{
+    background-color: #FFCC18;
+    border-radius: 0.7rem;
+    width: 34rem;
+    max-width: 80vw;
+    height:38rem;
+}
+#event .apply h4{
+    margin-top: 0.4rem;
+}
+#event .apply .opa_y{
+    background-color: #ffffff;
+    border-radius: 0.7rem;
+    width: 97%;
+    height: 35rem;
+    opacity: 0.6;
+    top: 7%;
+}
+#event .opa_y li{
+    line-height: 2rem;
+}
+#event .opa_y li strong{
+    color:#000;
+}
+#event .opa_y input{
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
+#event .terms{
+    top:45%;
+}
+#event .terms textarea{
+    width: 100%;
+    height: 6.25em;
+    resize: none;
+}
+#event .apply .apl{
+    top:71%;
+}
+#event .term_a{
+    top:78%;
+}
+#event .term_a input{
+    display:inline-block;
+    width:10rem;
+    height:2.5rem;
+}
+#event .sub{
+    top: 88%;
+    left: 5%;
+}
+#event .sub p{
+    font-size:1rem;
+    color:#ccc;
+    margin-bottom:0;
+}
